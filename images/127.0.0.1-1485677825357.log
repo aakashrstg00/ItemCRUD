@@ -1,0 +1,21 @@
+controller.js:51 Uncaught ReferenceError: data is not defined
+    at HTMLImageElement.toggleDelete (controller.js:51)
+toggleDelete @ controller.js:51
+controller.js:51 Uncaught ReferenceError: data is not defined
+    at HTMLImageElement.toggleDelete (controller.js:51)
+toggleDelete @ controller.js:51
+controller.js:51 Uncaught ReferenceError: data is not defined
+    at HTMLImageElement.toggleDelete (controller.js:51)
+toggleDelete @ controller.js:51
+var e=[1,2,3,4,5];
+undefined
+var e=[3,1,6,4,8];
+undefined
+e.sort(function(first,second){
+return first-second;
+});
+[1, 3, 4, 6, 8]
+e.sort(function(first,second){
+return second-first;
+});
+[8, 6, 4, 3, 1]
